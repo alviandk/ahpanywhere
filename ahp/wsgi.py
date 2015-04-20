@@ -1,12 +1,12 @@
 # TURN ON THE VIRTUAL ENVIRONMENT FOR YOUR APPLICATION
-activate_this = '/home/<username>/.virtualenvs/rango/bin/activate_this.py'
+activate_this = '/home/alviandk/.virtualenvs/rango/bin/activate_this.py'
 execfile(activate_this, dict(__file__=activate_this))
 
 import os
 import sys
 
 # ADD YOUR PROJECT TO THE PYTHONPATH FOR THE PYTHON INSTANCE
-path = '/home/<username>/tango_with_django/tango_with_django_project'
+path = '/home/alviandk/tango_with_django/tango_with_django_project'
 
 if path not in sys.path:
     sys.path.append(path)
